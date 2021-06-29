@@ -32,9 +32,6 @@ This repository is based on MATLAB, so you should have MATLAB installed before r
 
 1. Just run `main.m` and the resulting images will display.
 
-## Implementations
-
-* See this [file](https://github.com/arthur960304/face-recognition-using-pca/blob/master/implementation.pdf) for detailed implementations.
 
 ## Experiments
 
@@ -46,19 +43,5 @@ Here I have conducted 6 experiments
 4. Reconstruct one of the other 10 individuals’ neutral expression image using different number of PCs, and plot the MSE of reconstruction versus the number of principal components.
 5. Use any other non-human image and try to reconstruct it using all the PCs.
 6. Rotate one of 190 individuals’ neutral expression image with different degrees and try to reconstruct it using all PCs.
-
-## Results
-
-* Here is the one of the reconstructed result ![reconstructed neutral img](https://github.com/arthur960304/face-recognition-using-pca/blob/master/result/reconstruct_neutral_testimg.jpg)
-
-* Here is the MSE example for above reconstructed result ![MSE of reconstruction vs PCs](https://github.com/arthur960304/face-recognition-using-pca/blob/master/result/mse_neutral_testimg.jpg)
-
-* Here is the result for trying to reconstruct a non-human image ![car](https://github.com/arthur960304/face-recognition-using-pca/blob/master/result/car.jpg)
-
-
-## Authors
-
-* **Arthur Hsieh** - *Initial work* - [arthur960304](https://github.com/arthur960304)
-
 ## References
 [1] - [M. A Turk and A. P. Pentland, “Face Recognition Using Eigenfaces", Proceedings of IEEE CVPR 1991](https://sites.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf)
